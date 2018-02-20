@@ -1,0 +1,401 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		254E342D203B650C00E7F71C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254E342C203B650C00E7F71C /* AppDelegate.swift */; };
+		254E3437203B650C00E7F71C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 254E3435203B650C00E7F71C /* LaunchScreen.storyboard */; };
+		254E343F203B653E00E7F71C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 254E343E203B653E00E7F71C /* Assets.xcassets */; };
+		254E3441203B655200E7F71C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 254E3440203B655200E7F71C /* Main.storyboard */; };
+		254E3446203B65E000E7F71C /* SocialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254E3443203B65E000E7F71C /* SocialViewController.swift */; };
+		254E3447203B65E000E7F71C /* SocialTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254E3444203B65E000E7F71C /* SocialTableViewCell.swift */; };
+		254E3448203B65E000E7F71C /* SocialTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254E3445203B65E000E7F71C /* SocialTableViewController.swift */; };
+		254E344C203B660700E7F71C /* ContactUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254E344A203B660700E7F71C /* ContactUsViewController.swift */; };
+		254E344D203B660700E7F71C /* EmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254E344B203B660700E7F71C /* EmailViewController.swift */; };
+		254E3451203B663700E7F71C /* PortfolioCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254E344F203B663700E7F71C /* PortfolioCollectionViewController.swift */; };
+		254E3452203B663700E7F71C /* PortfolioCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254E3450203B663700E7F71C /* PortfolioCollectionViewCell.swift */; };
+		254E3455203B665000E7F71C /* AboutUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254E3454203B665000E7F71C /* AboutUsViewController.swift */; };
+		254E345A203B667000E7F71C /* ServicesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254E3457203B667000E7F71C /* ServicesTableViewCell.swift */; };
+		254E345B203B667000E7F71C /* ServicesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254E3458203B667000E7F71C /* ServicesTableViewController.swift */; };
+		254E345C203B667000E7F71C /* ServicesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254E3459203B667000E7F71C /* ServicesViewController.swift */; };
+		254E345E203B668200E7F71C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254E345D203B668200E7F71C /* ViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		254E3429203B650C00E7F71C /* MedhatCompany.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MedhatCompany.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		254E342C203B650C00E7F71C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		254E3436203B650C00E7F71C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		254E3438203B650C00E7F71C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		254E343E203B653E00E7F71C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		254E3440203B655200E7F71C /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		254E3443203B65E000E7F71C /* SocialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocialViewController.swift; sourceTree = "<group>"; };
+		254E3444203B65E000E7F71C /* SocialTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocialTableViewCell.swift; sourceTree = "<group>"; };
+		254E3445203B65E000E7F71C /* SocialTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocialTableViewController.swift; sourceTree = "<group>"; };
+		254E344A203B660700E7F71C /* ContactUsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactUsViewController.swift; sourceTree = "<group>"; };
+		254E344B203B660700E7F71C /* EmailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmailViewController.swift; sourceTree = "<group>"; };
+		254E344F203B663700E7F71C /* PortfolioCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PortfolioCollectionViewController.swift; sourceTree = "<group>"; };
+		254E3450203B663700E7F71C /* PortfolioCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PortfolioCollectionViewCell.swift; sourceTree = "<group>"; };
+		254E3454203B665000E7F71C /* AboutUsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutUsViewController.swift; sourceTree = "<group>"; };
+		254E3457203B667000E7F71C /* ServicesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServicesTableViewCell.swift; sourceTree = "<group>"; };
+		254E3458203B667000E7F71C /* ServicesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServicesTableViewController.swift; sourceTree = "<group>"; };
+		254E3459203B667000E7F71C /* ServicesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServicesViewController.swift; sourceTree = "<group>"; };
+		254E345D203B668200E7F71C /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		254E3426203B650C00E7F71C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		254E3420203B650C00E7F71C = {
+			isa = PBXGroup;
+			children = (
+				254E342B203B650C00E7F71C /* MedhatCompany */,
+				254E342A203B650C00E7F71C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		254E342A203B650C00E7F71C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				254E3429203B650C00E7F71C /* MedhatCompany.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		254E342B203B650C00E7F71C /* MedhatCompany */ = {
+			isa = PBXGroup;
+			children = (
+				254E345D203B668200E7F71C /* ViewController.swift */,
+				254E342C203B650C00E7F71C /* AppDelegate.swift */,
+				254E3456203B665E00E7F71C /* Services */,
+				254E3453203B664100E7F71C /* About Us */,
+				254E344E203B662600E7F71C /* Portfolio */,
+				254E3449203B65F300E7F71C /* Contact Us */,
+				254E3442203B65D100E7F71C /* Social */,
+				254E3435203B650C00E7F71C /* LaunchScreen.storyboard */,
+				254E3440203B655200E7F71C /* Main.storyboard */,
+				254E3438203B650C00E7F71C /* Info.plist */,
+				254E343E203B653E00E7F71C /* Assets.xcassets */,
+			);
+			path = MedhatCompany;
+			sourceTree = "<group>";
+		};
+		254E3442203B65D100E7F71C /* Social */ = {
+			isa = PBXGroup;
+			children = (
+				254E3444203B65E000E7F71C /* SocialTableViewCell.swift */,
+				254E3445203B65E000E7F71C /* SocialTableViewController.swift */,
+				254E3443203B65E000E7F71C /* SocialViewController.swift */,
+			);
+			path = Social;
+			sourceTree = "<group>";
+		};
+		254E3449203B65F300E7F71C /* Contact Us */ = {
+			isa = PBXGroup;
+			children = (
+				254E344A203B660700E7F71C /* ContactUsViewController.swift */,
+				254E344B203B660700E7F71C /* EmailViewController.swift */,
+			);
+			path = "Contact Us";
+			sourceTree = "<group>";
+		};
+		254E344E203B662600E7F71C /* Portfolio */ = {
+			isa = PBXGroup;
+			children = (
+				254E344F203B663700E7F71C /* PortfolioCollectionViewController.swift */,
+				254E3450203B663700E7F71C /* PortfolioCollectionViewCell.swift */,
+			);
+			path = Portfolio;
+			sourceTree = "<group>";
+		};
+		254E3453203B664100E7F71C /* About Us */ = {
+			isa = PBXGroup;
+			children = (
+				254E3454203B665000E7F71C /* AboutUsViewController.swift */,
+			);
+			path = "About Us";
+			sourceTree = "<group>";
+		};
+		254E3456203B665E00E7F71C /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				254E3457203B667000E7F71C /* ServicesTableViewCell.swift */,
+				254E3458203B667000E7F71C /* ServicesTableViewController.swift */,
+				254E3459203B667000E7F71C /* ServicesViewController.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		254E3428203B650C00E7F71C /* MedhatCompany */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 254E343B203B650C00E7F71C /* Build configuration list for PBXNativeTarget "MedhatCompany" */;
+			buildPhases = (
+				254E3425203B650C00E7F71C /* Sources */,
+				254E3426203B650C00E7F71C /* Frameworks */,
+				254E3427203B650C00E7F71C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MedhatCompany;
+			productName = MedhatCompany;
+			productReference = 254E3429203B650C00E7F71C /* MedhatCompany.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		254E3421203B650C00E7F71C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Medhatm3bd;
+				TargetAttributes = {
+					254E3428203B650C00E7F71C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 254E3424203B650C00E7F71C /* Build configuration list for PBXProject "MedhatCompany" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 254E3420203B650C00E7F71C;
+			productRefGroup = 254E342A203B650C00E7F71C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				254E3428203B650C00E7F71C /* MedhatCompany */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		254E3427203B650C00E7F71C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				254E3441203B655200E7F71C /* Main.storyboard in Resources */,
+				254E343F203B653E00E7F71C /* Assets.xcassets in Resources */,
+				254E3437203B650C00E7F71C /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		254E3425203B650C00E7F71C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				254E3448203B65E000E7F71C /* SocialTableViewController.swift in Sources */,
+				254E3455203B665000E7F71C /* AboutUsViewController.swift in Sources */,
+				254E344D203B660700E7F71C /* EmailViewController.swift in Sources */,
+				254E342D203B650C00E7F71C /* AppDelegate.swift in Sources */,
+				254E3452203B663700E7F71C /* PortfolioCollectionViewCell.swift in Sources */,
+				254E345A203B667000E7F71C /* ServicesTableViewCell.swift in Sources */,
+				254E345C203B667000E7F71C /* ServicesViewController.swift in Sources */,
+				254E345B203B667000E7F71C /* ServicesTableViewController.swift in Sources */,
+				254E345E203B668200E7F71C /* ViewController.swift in Sources */,
+				254E3451203B663700E7F71C /* PortfolioCollectionViewController.swift in Sources */,
+				254E344C203B660700E7F71C /* ContactUsViewController.swift in Sources */,
+				254E3447203B65E000E7F71C /* SocialTableViewCell.swift in Sources */,
+				254E3446203B65E000E7F71C /* SocialViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		254E3435203B650C00E7F71C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				254E3436203B650C00E7F71C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		254E3439203B650C00E7F71C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		254E343A203B650C00E7F71C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		254E343C203B650C00E7F71C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MedhatCompany/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = medhat.MedhatCompany;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		254E343D203B650C00E7F71C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MedhatCompany/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = medhat.MedhatCompany;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		254E3424203B650C00E7F71C /* Build configuration list for PBXProject "MedhatCompany" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				254E3439203B650C00E7F71C /* Debug */,
+				254E343A203B650C00E7F71C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		254E343B203B650C00E7F71C /* Build configuration list for PBXNativeTarget "MedhatCompany" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				254E343C203B650C00E7F71C /* Debug */,
+				254E343D203B650C00E7F71C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 254E3421203B650C00E7F71C /* Project object */;
+}
